@@ -35,7 +35,7 @@ foreach($repos as $repo) {
     }
 
   } else {
-    out($repoName . " exists - cloning " . $gitUrl . " ...");
+    out($repoName . " does NOT exist - cloning " . $gitUrl . " ...");
     $output = shell_exec('git clone ' . $gitUrl . ' ' . $backupDir . $repoName);
     out($output);
   }
