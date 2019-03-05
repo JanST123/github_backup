@@ -10,6 +10,7 @@ You need the following Software installed:
 * PHP >= 7.0
 * Git client
 * Composer (https://getcomposer.org)
+* For private repos have your GitHub SSH private key configured in your SSH config
 
 ### Install dependencies
 Once you have composer installed, install the dependencies by executing `composer install` in this scripts root directory
