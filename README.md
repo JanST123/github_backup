@@ -7,7 +7,7 @@ It simple clones all your repositories (even private ) and their branches via gi
 ## Setup
 ### Prerequisites
 You need the following Software installed:
-* PHP >= 7.0
+* PHP >= 7.1.3
 * Git client
 * Composer (https://getcomposer.org)
 * For private repos have your GitHub SSH private key configured in your SSH config
