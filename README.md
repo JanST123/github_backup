@@ -23,4 +23,5 @@ then create a file **API_TOKEN** in this scripts root directory and paste the to
 Run the script with `php -f backup.php` - it will fetch all your repositories via GitHub API and then clones them all into a subdirectory called *"backup"*. At the next run it will only pull changes and clones only complete new repositories. So you may run this script periodically via a cronjob or something else.
 
 ## Credits
-This script is build on the PHP GitHub API client from [KnpLabs](https://github.com/KnpLabs/php-github-api)
+This script is build on the PHP GitHub API client from [KnpLabs](https://github.com/KnpLabs/php-github-api).
+I wrote this script for backing up my personal GitHub Repos.
